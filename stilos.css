@@ -1,0 +1,30 @@
+body,html
+{
+    margin: 0;
+    width: auto;
+    height: 100%
+}
+header
+{            
+    color: #000000;
+    text-align: center;
+    width: auto;
+    height: 50%;
+    border: 1px solid #000000;
+}
+section
+{
+    color: #000000;
+    text-align: center;
+    width: auto;
+    height: 90%;
+    border: 1px solid #000000;
+}      
+footer
+{
+    color: #000000;
+    text-align: center;
+    width: auto;
+    height: 30%;
+    border: 1px solid #000000;
+}
