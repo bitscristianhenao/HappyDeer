@@ -6,25 +6,64 @@ body,html
 }
 header
 {            
-    color: #000000;
-    text-align: center;
     width: auto;
-    height: 50%;
-    border: 1px solid #000000;
+    height: 100%;
+    display: block;
 }
-section
+div.fondo
 {
-    color: #000000;
-    text-align: center;
+    background: url(working.png);
+    background-size: cover;
+    filter: brightness(50%);
     width: auto;
-    height: 90%;
-    border: 1px solid #000000;
+    height: 100%;
 }      
-footer
+div.contenedor
 {
-    color: #000000;
-    text-align: center;
-    width: auto;
-    height: 30%;
-    border: 1px solid #000000;
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    z-index: 1;
+}
+.logo
+{
+    position: relative;
+    margin-left: 7%;
+    margin-top: 17px;
+}
+nav
+{ 
+    color: antiquewhite;
+    font-family: 'open sans';
+    font-size: 15px;
+    position: relative;
+    float: right;
+    margin-right: 0; 
+}
+ul
+{
+    margin-top: 18px;
+}
+li
+{
+    display: inline-block;
+    margin: 18px 20px;
+}
+.idioma
+{
+    background-color: rgba(14, 95, 170, 0.5);
+    margin: 0px 0px 0px 10px;
+    padding: 7px 45px 7px 7px;
+}
+a
+{
+    color: #ffffff;
+    text-decoration: none;
+}
+.menu a:hover
+{
+    color: #a6cf24;
+    border-top: 5px solid;
+    border-color: #a6cf24;
+    padding-top: 29px;
 }
