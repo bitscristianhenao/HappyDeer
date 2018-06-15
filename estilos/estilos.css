@@ -1,0 +1,156 @@
+
+body,html
+{
+    margin: 0;
+    width: auto;
+    height: 100%
+}
+header
+{
+    top: 0;
+}
+.logo
+{
+    margin: 15px 70px;
+    width: 130px;
+    height: 66px;
+}
+nav
+{
+    float: right;
+    margin-top: 15px;
+}
+li
+{
+    display: inline-block;
+    margin-top: 23px;
+}
+ul
+{
+    margin-top: 0px;
+    padding: 0px;
+}
+.idioma a
+{
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: lighter;
+    color: white;
+    background-color: rgba(14, 95, 170, 0.5);
+    padding: 7px 45px 7px 7px;
+    margin-left: 10px;
+}
+.menu a
+{
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: lighter;
+    color: white;
+    padding-left: 26px;
+    padding-right: 26px;
+}
+.menu a:hover
+{
+    color: #a6cf24;
+    border-top: 5px solid;
+    border-color: #a6cf24;
+    opacity: 0.8;
+    padding-top: 33px;
+    padding-left: 26px;
+    padding-right: 26px;
+}
+.fondo
+{
+    top: 0;
+    position: absolute;
+    background: url("../imagenes/Bannerhome.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 670px;
+    z-index: -1;
+}
+.slidertexto
+{
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(255,255,255,1);
+    margin: 248px 100px 65px 200px;
+    margin-right: 100px;
+}
+.titulo
+{
+    font-size: 46px;
+    font-weight: lighter;
+    text-align: right;
+    margin-bottom: 15px;
+}
+.descripcion
+{
+    font-size: 24px;
+    font-weight: lighter;
+    text-align: right;
+    width: 72%;
+    margin-left: 29%;
+    margin-top: 10px;
+}
+.boton
+{
+    height: 62px;
+    margin-left: 47%;
+    top: 50%;
+    width: 100%;
+}
+.explorar
+{
+    border: none;
+    background: rgba(0, 0, 0, 0);
+
+}
+.explorar::after
+{
+    content: "EXPLORAR";
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 14px;
+    font-weight: lighter;
+    padding-bottom: 50px;
+    border: none;
+    background: url(../imagenes/arrow.png);
+    background-position: center;
+    background-size: 30px;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 62px;
+}
+.titulopb
+{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 26px;
+    font-weight: lighter;
+    color: black;
+    margin-top: 80px;
+}
+.elementos
+{
+    margin-left: 17%;
+}
+.icono
+{
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+    color: white;
+    margin: 20px 40px 60px 40px;
+    text-align: center;
+}
+.icono :hover
+{
+    color: #a6cf24;
+}
+@media only screen and (max-width: 375px)
+{
+    color: #a6cf24;
+}
